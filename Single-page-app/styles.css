@@ -25,8 +25,9 @@ a {
 body {
     background-image: url(img/Puffygoodsstore4.jpg);
     background-image: url(img/background2.jpg);
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-color: rgb(194, 209, 229);
+    background-position: center;
 }
 .head {
     background-color: lavenderblush;
@@ -137,11 +138,14 @@ body {
 }
 .advantages {
     padding: 1rem;
+    width:60%;
+    margin: 0 auto;
 }
 .advantages-list{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    padding-left:0rem;
 }
 .advantages li{
     display: inline-block;
@@ -159,4 +163,51 @@ body {
 .advantages-list h3 {
     text-align: center;
     padding: 0.4rem;
+}
+.photo-news,
+.contact-order {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+.photo-news section,
+.contact-order section{
+    display: inline-block;
+    width: 43%;
+    padding: auto;
+    border: solid 2px rgb(204, 140, 140);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.photo-news h2 {
+    text-align:center;
+}
+.photo-news li {
+        list-style: none;
+        padding:0.3rem;
+}
+.photo-news time{
+    font-size: small;
+}
+.photo-news button {
+    padding:  0.4rem 2rem;
+    background-color: lightcoral;
+    border: solid 2px white;
+    color: white;
+}
+.photo-news button:hover {
+    background-color: white;
+    color: lightcoral;
+}
+.photo-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
 }
