@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding 0;
+}
+
+@media (max-width: 900px) {
+   .list li{
+       display: block;
+       width:75%;
+       font-size: 1.5rem;
+   }
+   .mainpage {
+       margin-top: 10rem;
+   }
+   .head {
+    height: 10rem;
+    position: relative;
+    
+    background-color:darksalmon;
+   }
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url(img/Puffygoodsstore4.jpg);
+    background-image: url(img/background2.jpg);
+    background-repeat: repeat-x;
+    background-color: rgb(194, 209, 229);
+}
+.head {
+    background-color: lavenderblush;
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.text-capit {
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 600;
+    font-family:  monospace, monospace;
+}
+.navigation{
+    list-style: none;
+    padding-left: 0.5rem;
+}
+.navigation img {
+    vertical-align:bottom ;
+}
+.navigation > li {
+    display: inline-block;
+    padding: 5px 10px;
+    border: solid 2px #fff;
+    background-color: lightcoral;
+    height:2rem;
+    line-height:2rem;
+}
+.navigation > li {
+    cursor: pointer;
+}
+.navigation li:hover {
+    background-color: #fff;
+    border: solid 2px red;
+}
+.navigation li > a {
+    color: #fff;
+    display: block;
+}
+.navigation > li a:hover {
+    color: red;
+}
+#loginwindow {
+    position: absolute;
+    display:none;
+    padding: 10px;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    height: 20%;
+    background-color:white
+
+}
+.order > div {
+    display: block;
+}
+.user a {
+    text-decoration-line:underline;
+}
+.mainpage {
+    margin-top: 4rem;
+}
+.main {
+    list-style: none;
+    font-size: large;
+    margin: auto;
+    padding: 1rem;
+}
+.main a {
+    text-decoration: underline;
+}
+.main li:last-child {
+    
+    margin-top: 3rem;
+    background-color:lightsalmon
+}
+.main > li {
+    border: solid 2px blue;
+    margin: 1rem;
+    background-color: antiquewhite;
+    padding:0.5rem;
+}
+.main > li:hover {
+    background-color:navajowhite;
+}
+.main > li > time {
+    font-size: small;
+}
+.title > h2 {
+    text-align: center;
+}
+.contacts {
+
+}
+.logo{
+    margin: 0 auto;
+    text-align: center;
+}
+.mainpage h1 {
+    visibility: hidden;
+}
+.advantages h2 {
+    display: none;
+}
+.advantages {
+    padding: 1rem;
+}
+.advantages-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.advantages li{
+    display: inline-block;
+    width: 25%;
+    padding: 0.5rem;
+    border-style: solid;
+    border-radius: 1rem;
+    border-width: 2px;
+    border-color: rosybrown;
+    background:linear-gradient(0deg, #e47686, #faccce);
+}
+.advantages li:hover {
+    background:linear-gradient(0deg, #f1b5be, #f8f3f3);
+}
+.advantages-list h3 {
+    text-align: center;
+    padding: 0.4rem;
+}

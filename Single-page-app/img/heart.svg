@@ -1,0 +1,10 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path stroke="#000" id="svg_1" d="m-383.10224,197.78908c60.19509,-115.1768 296.04142,0 0,148.08445c-296.04142,-148.08445 -60.19509,-263.26125 0,-148.08445z" opacity="NaN" stroke-opacity="null" stroke-width="0" fill="#FFAAB8"/>
+  <ellipse ry="105" rx="125.5" id="svg_2" cy="338" cx="-230" opacity="NaN" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#FFAAB8"/>
+  <path transform="rotate(8.76913 405.197 315.979)" stroke="#000" id="svg_3" d="m405.19677,173.65771c145.71111,-324.05335 716.61201,0 0,416.64002c-716.61201,-416.64002 -145.71111,-740.69338 0,-416.64002z" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" fill="#ffd5d5"/>
+  <path transform="translate(-176.471 367.059)" id="svg_4" d="m459.76225,354.42428c6.59672,-24.21668 32.4429,0 0,31.13573c-32.4429,-31.13573 -6.59672,-55.35242 0,-31.13573z" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#FFAAB8"/>
+ </g>
+</svg>
