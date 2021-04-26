@@ -4,17 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Puffy Goods store</title>
 </head>
 <body>
+    <header class="head text-capit">
+        <div>
+            <nav class="list">
+            
+            <ul class="navigation">
+                <li><a href="main.html"><img src="img/home.png" height="30"
+                    alt="Домашняя страница"></a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="catalogue.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+               <li><a href="examples.html">Примеры работ</a></li>
+            </ul>
+        </div>
+        <div>
+            <a>
+                <img src="img/logosmall.png" width="40"
+                alt="Логотип магазина Пуффи гудз">
+            </a>
+        </div>
+        <div>
+            <ul class="navigation">
+                <li><a onclick='document.getElementById("loginwindow").style.display="block"'
+                    >Войти</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
     <main class="contact text-capit">
         <section>
             <form action="main.html" target="_blank">
             <h2>Где мы находимся</h2>
             <p>
                 <a href="https://yandex.ru/maps/-/CCUYbXH6CC" target="_blank">
-                <img id="imgmap" src="img/map.jpg" width="600" alt="Адрес: г. Москва, ул. Сосенский стан, д. 3"><br>
+                <img id="imgmap" src="img/map.jpg" width="80%" alt="Адрес: г. Москва, ул. Сосенский стан, д. 3"><br>
                 </a>
                 Магазин Puffy Goods<br>
             Адрес: г. Москва, ул. Сосенский стан, д. 3<br>
@@ -24,6 +52,5 @@
             </form>
         </section>
     </main>
-    
 </body>
 </html>
