@@ -21,37 +21,36 @@
   .mainpage
     .photo-news,
   .mainpage
-    .contact-order {
+    .contact-order,
+  .mainpage
+    .calc-cont {
     width: 97%;
   }
   .head {
     overflow: auto;
   }
 }
-a {
-  text-decoration: none;
-}
+
 body {
-  background-color: rgb(
-    194,
-    209,
-    229
-  );
-  background-image: url(img/Puffygoodsstore4.jpg);
+  background-color: #84d2e6;
   background-image: url(img/background2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   font-family: 'PT Sans Narrow',
     Arial
       sans-serif;
-
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+a {
+  text-decoration: none;
 }
 .head {
   position: fixed;
   top: 0;
-  height: 3rem;
+  height: 3.5rem;
+  font-weight: 700;
 }
 footer,
 .head {
@@ -63,37 +62,33 @@ footer,
 footer {
   height: auto;
   color: white;
-}
-.text-capit {
+  bottom: 0px;
 }
 .navigation {
   list-style: none;
   padding-left: 0.5rem;
 
+  line-height: 56px;
   text-transform: uppercase;
 }
 .navigation
   img {
-  vertical-align: bottom;
+  vertical-align: middle;
+  text-align: center;
 }
 .navigation
   > li {
   display: inline-block;
-  border: solid
-    2px
-    #fff;
-  background-color: lightcoral;
-  line-height: 2rem;
   cursor: pointer;
 }
 .navigation
   li
   a {
   color: #fff;
-  padding: 5px
+  display: inline-block;
+
+  padding: 0
     10px;
-  height: 2rem;
-  display: block;
 }
 .navigation
   > li
@@ -101,15 +96,16 @@ footer {
 .navigation
   > li
   a:focus {
-  color: red;
+  color: lightcoral;
   background-color: #fff;
-  border: solid
-    2px
-    red;
 }
 .logo-head {
+  line-height: 3.5rem;
+}
+.logo-head
+  img {
   display: inline-block;
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 #loginwindow {
   position: absolute;
@@ -135,33 +131,34 @@ footer {
 .mainpage {
   margin-top: 4rem;
 }
-.main {
+.main-news {
   list-style: none;
   font-size: large;
   padding: 1rem;
 }
-.main a {
+.main-news
+  a {
   text-decoration: underline;
 }
-.main
+.main-news
   li:last-child {
   margin-top: 3rem;
   background-color: lightsalmon;
 }
-.main
+.main-news
   > li {
   border: solid
     2px
-    blue;
+    rosybrown;
   margin: 1rem;
   background-color: antiquewhite;
   padding: 0.5rem;
 }
-.main
+.main-news
   > li:hover {
   background-color: navajowhite;
 }
-.main
+.main-news
   > li
   > time {
   font-size: small;
@@ -220,7 +217,7 @@ footer {
     #e47686,
     #faccce
   );
-  font-size: 16px;
+  font-size: 18px;
 }
 .advantages
   li:hover {
@@ -241,7 +238,8 @@ footer {
   padding: 5px;
 }
 .photo-news,
-.contact-order {
+.contact-order,
+.calc-cont {
   width: 75%;
   margin: 1rem
     auto;
@@ -251,9 +249,9 @@ footer {
 .photo-news
   section,
 .contact-order
-  section {
+  section,
+.calc {
   display: inline-block;
-  width: 43%;
   padding: auto;
   background-color: rgb(
     204,
@@ -272,8 +270,19 @@ footer {
   border-radius: 0.5rem;
 }
 .photo-news
-  h2 {
+  section,
+.contact-order
+  section {
+  width: 43%;
+}
+.photo-news
+  h2,
+.contact-order
+  h2,
+.calc h2 {
   text-align: center;
+  margin: 10px
+    0px;
 }
 .photo-news
   li {
@@ -288,15 +297,38 @@ footer {
   ul {
   padding-left: 0px;
 }
-.photo-news
-  button {
-  padding: 0.4rem
-    1rem;
+.photo-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  padding: 0.7rem
+    2rem;
   background-color: lightcoral;
-  border: solid
-    2px
-    white;
   color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: solid
+    0;
+}
+.button:hover,
+.button:focus {
+  color: lightcoral;
+  background-color: #fff;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: large;
+  border-radius: 50%;
+  padding: 10px
+    15px;
+}
+.close:active {
+  border: solid
+    0px;
+  border-radius: 50%;
 }
 .photo-news
   button:hover {
@@ -313,4 +345,9 @@ footer {
   left: 0px;
   display: flex;
   justify-content: space-between;
+}
+.calc {
+  width: 100%;
+  margin: auto
+    1rem;
 }

@@ -25,7 +25,7 @@
         </div>
         <div class="logo-head">
             <a>
-                <img src="img/logosmall.png" width="45"
+                <img src="img/logosmall.png" height="45"
                 alt="Логотип магазина Пуффи гудз">
             </a>
         </div>
@@ -102,8 +102,8 @@
                     <img src="img/puffypled1.jpg" width="100%" alt="плед">
                 </a><br>
                 <div class="photo-btn">
-                <button type="button">Назад</button>
-                <button type="button">Вперед</button>
+                <button class="button" type="button">Назад</button>
+                <button class="button" type="button">Вперед</button>
             </div>
             </figure>
         </section>
@@ -181,10 +181,26 @@
                 <input type="text" name="name" value='' placeholder="Как вас зовут?">
                 <input type="tel" name="phone" value='' placeholder="+7 999 99 99">
             </div>         
-                <p><input type="submit" value="Отправить"></p>
+                <p><input class="button" type="submit" value="Отправить"></p>
             </form>
         </section>
     </div>
+    <div class="calc-cont">
+    <section class="calc">
+        <h2>Калькулятор расхода пряжи</h2>
+        <form id="calc">
+          <p>
+            <label for="pled-length">Длина, см </label>
+            <input id="pled-length" type="text" name="length" value='' placeholder=90>
+          </p>
+          <p>
+            <label for="pled-width">Ширина, см </label>
+            <input id="pled-width" type="text" name="width" value='' placeholder=90>
+          </p>
+          <button class="button" type="submit">Подсчитать</button>
+        </form>
+    </section>
+</div>
     </main>
     <footer class="text-capit">
         <p>
@@ -229,9 +245,9 @@
                 <a href="#">Я забыл пароль!</a>
             </label>
         </p>
-        <button type="submit">Войти</button>
+        <button class="button" type="submit">Войти</button>
     </form>
-    <button type="button" onclick="document.getElementById('loginwindow').style.display='none'">Закрыть</button>
+    <button class="button close" type="button" onclick="document.getElementById('loginwindow').style.display='none'"> &times </button>
     </div>
 </body>
 </html>
