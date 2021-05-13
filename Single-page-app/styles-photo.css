@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-page {
+  background-color: #dcdcdc;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container
+  img {
+  width: 22%;
+  margin: 10px;
+  box-shadow: 0
+      14px
+      28px
+      rgba(
+        0,
+        0,
+        0,
+        0.25
+      ),
+    0 10px
+      10px
+      rgba(
+        0,
+        0,
+        0,
+        0.22
+      );
+}
+@media (max-width: 900px) {
+  .container
+    img {
+    width: 44%;
+  }
+}
